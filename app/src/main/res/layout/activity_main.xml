@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.caokai.extendheader.PullExtendLayout
+        android:id="@+id/pull_extend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.caokai.extendheader.ExtendListHeader
+            android:id="@+id/extend_header"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"/>
+
+
+        <com.caokai.extendheader.ExtendListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.caokai.extendheader.PullExtendLayout>
+
+
+</LinearLayout>
